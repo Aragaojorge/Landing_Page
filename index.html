@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,27 +19,245 @@
 
 <body class="main-bg">
 
-    <aside class="menu">
+    <aside class="menu white-bg">
 
-        <section class="main-content menu-content">
+        <div class="main-content menu-content">
 
-            <h1><a href="#">Logo</a></h1>
+            <h1>
+                <a href="#home">Logo</a>
+            </h1>
             
             <nav>
 
                 <ul>
-                    <li><a href="#">Intro</a></li>
-                    <li><a href="#">Top</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Work</a></li>
+
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#grid-one">grid one</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#grid-two">grid two</a></li>
                     <li><a href="#">Contact</a></li>
+
                 </ul>
 
             </nav>
 
-        </section>
+        </div>
 
     </aside>
+
+    <section id="home" class="intro main-bg section">
+
+        <div class="main-content intro-content">
+
+            <div class="intro-text-content">
+
+                <h2>
+                    January brings us Firefox 85
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vel ad magnam, nemo sapiente quasi mollitia officiis dolorem consequuntur
+                    minima dolore veritatis tempora, vitae laudantium iste expedita, est dolores maxime.
+                </p>
+
+            </div>
+
+            <div class="intro-img">
+
+                <img src="assets/img/javascript-not-optimized.svg" alt="A picture of people handling logos os JS. HTML and CSS.">
+
+            </div>
+        
+        </div>
+
+    </section>
+
+    <section id="intro" class="white-bg section">
+
+        <div class="main-content top3-content">
+
+            <h2>news coverage</h2>
+
+            <p>
+                The release of Apple Silicon-based Macs at the end of last year generated a
+                flurry of news coverage and some surprises at the machine's performance.
+                This post details some background information on the experience of porting
+                Firefox to run natively on these CPUs.
+            </p>
+
+            <p>
+                The release of Apple Silicon-based Macs at the end of last year generated a
+                flurry of news coverage and some surprises at the machine's performance.
+                This post details some background information on the experience of porting
+                Firefox to run natively on these CPUs.
+            </p>
+
+            <p>
+                The release of Apple Silicon-based Macs at the end of last year generated a
+                flurry of news coverage and some surprises at the machine's performance.
+                This post details some background information on the experience of porting
+                Firefox to run natively on these CPUs.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+
+        <div class="main-content grid-one-content">
+
+            <h2 class="grid-main-heading">my grid one</h2>
+
+            <p class="grid-description">Description</p>
+
+            <div class="grid">
+
+                <article>
+
+                    <h3>Test 1</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error animi vitae numquam 
+                        voluptates quos ab accusamus nulla consequuntur inventore dolorum ut nobis, amet 
+                        quisquam eum id facere sint consequatur quibusdam.
+                    </p>     
+
+                </article>
+
+                <article>
+
+                    <h3>Test 2</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error animi vitae numquam 
+                        voluptates quos ab accusamus nulla consequuntur inventore dolorum ut nobis, amet 
+                        quisquam eum id facere sint consequatur quibusdam.
+                    </p>
+
+                </article>
+
+                <article>
+
+                    <h3>Test 3</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error animi vitae numquam 
+                        voluptates quos ab accusamus nulla consequuntur inventore dolorum ut nobis, amet 
+                        quisquam eum id facere sint consequatur quibusdam.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+
+        <div class="main-content grid-one-content">
+
+            <h2 class="grid-main-heading">Gallery</h2>
+
+            <p class="grid-description">Description</p>
+
+            <div class="grid">
+
+                <div class="gallery-img">
+
+                    <img src="http://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash">
+
+                </div>
+
+                <div class="gallery-img">
+
+                    <img src="http://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash">
+
+                </div>
+
+                <div class="gallery-img">
+
+                    <img src="http://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash">
+
+                </div>
+
+                <div class="gallery-img">
+
+                    <img src="http://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash">
+
+                </div>
+
+                <div class="gallery-img">
+
+                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash">
+
+                </div>
+
+                <div class="gallery-img">
+
+                    <img src="http://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash">
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+
+        <div class="main-content grid-one-content">
+
+            <h2 class="grid-main-heading">my grid two</h2>
+
+            <p class="grid-description">Description</p>
+
+            <div class="grid">
+
+                <article>
+
+                    <h3>Test 1</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error animi vitae numquam 
+                        voluptates quos ab accusamus nulla consequuntur inventore dolorum ut nobis, amet 
+                        quisquam eum id facere sint consequatur quibusdam.
+                    </p>     
+
+                </article>
+
+                <article>
+
+                    <h3>Test 2</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error animi vitae numquam 
+                        voluptates quos ab accusamus nulla consequuntur inventore dolorum ut nobis, amet 
+                        quisquam eum id facere sint consequatur quibusdam.
+                    </p>
+
+                </article>
+
+                <article>
+
+                    <h3>Test 3</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error animi vitae numquam 
+                        voluptates quos ab accusamus nulla consequuntur inventore dolorum ut nobis, amet 
+                        quisquam eum id facere sint consequatur quibusdam.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
 
 </body>
 
